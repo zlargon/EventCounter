@@ -26,4 +26,9 @@ describe('slow', () => {
     expect(eventCounter.query(2000)).to.be.equal(3);
     expect(eventCounter.query(3000)).to.be.equal(6);
   });
+
+  it('empty', async () => {
+    const eventCounter = EventCounter();
+    expect(eventCounter.query(1000)).to.be.equal(0);
+  });
 })
