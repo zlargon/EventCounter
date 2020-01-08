@@ -6,7 +6,8 @@
     "mocha": "^7.0.0"
   },
   "scripts": {
-    "test": "mocha test --timeout 5000",
+    "test": "mocha --timeout 5000",
+    "cover": "istanbul cover _mocha -- --timeout 5000",
     "lint": "eslint index.js"
   }
 }
