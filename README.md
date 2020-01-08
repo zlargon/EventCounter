@@ -2,6 +2,8 @@
 
 This is a JavaScript library that helps record (any kind of) incremental events, and query the number of events during the specific spantime.
 
+[![Build Status](https://travis-ci.com/zlargon/EventCounter.svg?branch=master)](https://travis-ci.com/zlargon/EventCounter) [![Coverage Status](https://coveralls.io/repos/github/zlargon/EventCounter/badge.svg?branch=master)](https://coveralls.io/github/zlargon/EventCounter?branch=master)
+
 ## Install
 
 ```bash
