@@ -1,4 +1,13 @@
 {
+  "name": "event-counter",
+  "description": "Event Counter for node.js",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zlargon/EventCounter.git"
+  },
   "devDependencies": {
     "chai": "^4.2.0",
     "coveralls": "^3.0.9",
